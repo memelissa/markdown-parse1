@@ -43,5 +43,7 @@ public class MarkdownParse {
         //for loop: for each content check for "](" and "https://"
         ArrayList<String> links = getLinks(contents);
         System.out.println(links);
+
+        System.out.printLn("Hello");
     }
 }
