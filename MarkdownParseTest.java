@@ -18,5 +18,9 @@ public class MarkdownParseTest {
         List<String> expect = List.of("https://something.com", "some-page.html");
         assertEquals(MarkdownParse.getLinks(contents), expect);
     }
+    @Test
+    public void addition() {
+        assertEquals(3, 1 + 1);
+    }
     
 }
