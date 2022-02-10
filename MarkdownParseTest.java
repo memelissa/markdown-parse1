@@ -9,7 +9,7 @@ import java.util.List;
 public class MarkdownParseTest {
     @Test
     public void addition() {
-        assertEquals(2, 1 + 1);
+        assertEquals(3, 1 + 1);
     }
 
     @Test
@@ -18,9 +18,6 @@ public class MarkdownParseTest {
         List<String> expect = List.of("https://something.com", "some-page.html");
         assertEquals(MarkdownParse.getLinks(contents), expect);
     }
-    @Test
-    public void addition() {
-        assertEquals(3, 1 + 1);
-    }
+    
     
 }
